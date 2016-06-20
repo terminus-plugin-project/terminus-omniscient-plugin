@@ -1,6 +1,6 @@
 # Omniscient
 
-Terminus Plugin to enable [New Relic Pro]() on all [Pantheon](https://www.pantheon.io) sites.
+Terminus Plugin to enable [New Relic Pro](https://pantheon.io/docs/new-relic/) on all [Pantheon](https://www.pantheon.io) sites.
 
 Adds a sub-command to 'sites' which is called 'omniscient'. This enables New Relic Pro for all sites your account has access to.
 
