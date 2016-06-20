@@ -26,19 +26,12 @@ class OmniscientCommand extends TerminusCommand {
     $this->sites = new Sites();
   }
 
-   /**
-   * Connects SequelPro to the Site
-   *
-   * ## OPTIONS
-   *
-   * [--site=<site>]
-   * : Site to Use
-   *
-   * [--env=<env>]
-   * : Environment to clear
+  /**
+   * Enables New Relic Pro on all sites/environments a user's account has access
+   * to
    *
    * ## EXAMPLES
-   *  terminus site pancakes --site=test
+   *  terminus sites omniscient
    *
    * @subcommand omniscient
    */
