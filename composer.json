@@ -3,7 +3,16 @@
   "description": "Omniscient - A Terminus plugin for enabling New Relic Pro on all sites",
   "homepage": "https://github.com/rvtraveller/terminus-omniscient",
   "license": "MIT",
+  "type": "terminus-plugin",
   "require": {
     "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": { "rvtraveller\\Omniscient\\": "src" }
+  },
+  "extra": {
+    "terminus": {
+      "compatible-version": "1.*"
+    }
   }
 }
