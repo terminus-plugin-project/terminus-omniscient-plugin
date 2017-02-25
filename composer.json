@@ -1,18 +1,36 @@
 {
-  "name": "rvtraveller/terminus-omniscient",
-  "description": "Omniscient - A Terminus plugin for enabling New Relic Pro on all sites",
-  "homepage": "https://github.com/rvtraveller/terminus-omniscient",
-  "license": "MIT",
-  "type": "terminus-plugin",
-  "require": {
-    "php": ">=5.4"
-  },
-  "autoload": {
-    "psr-4": { "rvtraveller\\Omniscient\\": "src" }
-  },
-  "extra": {
-    "terminus": {
-      "compatible-version": "1.*"
+    "name": "terminus-plugin-project/terminus-omniscient-plugin",
+    "description": "Omniscient - A Terminus plugin for enabling New Relic Pro on all sites.",
+    "homepage": "https://github.com/terminus-plugin-project/terminus-omniscient-plugin",
+    "authors": [
+        {
+            "name": "Brian Thompson",
+            "email": "bthompson@mindgrub.com",
+            "homepage": "https://github.com/rvtraveller",
+            "role": "Developer"
+        }
+    ],
+    "type": "terminus-plugin",
+    "keywords": [
+        "pantheon",
+        "terminus",
+        "new relic",
+        "omniscient",
+        "plugin"
+    ],
+    "support": {
+        "issues": "https://github.com/terminus-plugin-project/terminus-omniscient-plugin/issues"
+    },
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "TerminusPluginProject\\Omniscient\\": "src" }
+    },
+    "extra": {
+        "terminus": {
+            "compatible-version": "1.*"
+        }
     }
-  }
 }

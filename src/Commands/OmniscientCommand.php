@@ -1,6 +1,6 @@
 <?php
 
-namespace rvtraveller\Omniscient\Commands;
+namespace TerminusPluginProject\Omniscient\Commands;
 
 use Pantheon\Terminus\Commands\TerminusCommand;
 use Pantheon\Terminus\Site\SiteAwareInterface;
