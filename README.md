@@ -8,7 +8,7 @@ Terminus plugin to enable [New Relic Pro](https://pantheon.io/docs/new-relic/) o
 Adds a sub-command to 'sites' which is called 'omniscient'. This enables New Relic Pro for all sites your account has access to.
 
 ## Examples
-* `terminus omniscient`
+* `terminus sites:omniscient`
 
 ## Installation
 To install this plugin, place it in `~/.terminus/plugins/`.
