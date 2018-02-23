@@ -11,7 +11,10 @@ Adds a sub-command to 'sites' which is called 'omniscient'. This enables New Rel
 * `terminus sites:omniscient`
 
 ## Installation
-To install this plugin, place it in `~/.terminus/plugins/`.
+To install this plugin, create a plugins folder in `~/.terminus/` if you dont already have one, download and extract the files into the plugins files place it in `~/.terminus/plugins/`.
+
+Afterward in Terminus enter: terminus sites:omniscient
+to enabled New Relic Pro for all the sites in your account
 
 On Mac OS/Linux:
 ```
